@@ -308,6 +308,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 5D6FBC56142BB9A80015A945;
@@ -442,6 +443,7 @@
 				GCC_PREFIX_HEADER = "CoreAnimationFunHouse/CoreAnimationFunHouse-Prefix.pch";
 				INFOPLIST_FILE = "CoreAnimationFunHouse/CoreAnimationFunHouse-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -454,6 +456,7 @@
 				GCC_PREFIX_HEADER = "CoreAnimationFunHouse/CoreAnimationFunHouse-Prefix.pch";
 				INFOPLIST_FILE = "CoreAnimationFunHouse/CoreAnimationFunHouse-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
